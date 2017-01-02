@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EDAE2F081E1A64C900117ED9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F071E1A64C900117ED9 /* main.c */; };
+		EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F151E1AA77700117ED9 /* cookie.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,11 @@
 /* Begin PBXFileReference section */
 		EDAE2F041E1A64C900117ED9 /* curl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = curl; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAE2F071E1A64C900117ED9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EDAE2F0F1E1A835600117ED9 /* config-mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "config-mac.h"; path = "liburl/config-mac.h"; sourceTree = "<group>"; };
+		EDAE2F121E1A83E800117ED9 /* curl_setup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curl_setup.h; path = liburl/curl_setup.h; sourceTree = "<group>"; };
+		EDAE2F131E1A9F4400117ED9 /* urldata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = urldata.h; path = liburl/urldata.h; sourceTree = "<group>"; };
+		EDAE2F141E1AA0A200117ED9 /* cookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cookie.h; path = liburl/cookie.h; sourceTree = "<group>"; };
+		EDAE2F151E1AA77700117ED9 /* cookie.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cookie.c; path = liburl/cookie.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,22 @@
 		EDAE2F061E1A64C900117ED9 /* curl */ = {
 			isa = PBXGroup;
 			children = (
+				EDAE2F0E1E1A832900117ED9 /* liburl */,
 				EDAE2F071E1A64C900117ED9 /* main.c */,
 			);
 			path = curl;
+			sourceTree = "<group>";
+		};
+		EDAE2F0E1E1A832900117ED9 /* liburl */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE2F0F1E1A835600117ED9 /* config-mac.h */,
+				EDAE2F121E1A83E800117ED9 /* curl_setup.h */,
+				EDAE2F131E1A9F4400117ED9 /* urldata.h */,
+				EDAE2F141E1AA0A200117ED9 /* cookie.h */,
+				EDAE2F151E1AA77700117ED9 /* cookie.c */,
+			);
+			name = liburl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
+				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
