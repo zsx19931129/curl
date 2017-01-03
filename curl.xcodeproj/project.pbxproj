@@ -35,6 +35,7 @@
 		EDAE2F601E1BE93D00117ED9 /* timeval.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F5E1E1BE93D00117ED9 /* timeval.c */; };
 		EDAE2F631E1BEB4100117ED9 /* rand.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F611E1BEB4100117ED9 /* rand.c */; };
 		EDAE2F661E1BED7700117ED9 /* wildcard.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F641E1BED7700117ED9 /* wildcard.c */; };
+		EDAE2F691E1BF40E00117ED9 /* security.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F671E1BF40E00117ED9 /* security.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +112,8 @@
 		EDAE2F621E1BEB4100117ED9 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rand.h; path = liburl/rand.h; sourceTree = "<group>"; };
 		EDAE2F641E1BED7700117ED9 /* wildcard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wildcard.c; path = liburl/wildcard.c; sourceTree = "<group>"; };
 		EDAE2F651E1BED7700117ED9 /* wildcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wildcard.h; path = liburl/wildcard.h; sourceTree = "<group>"; };
+		EDAE2F671E1BF40E00117ED9 /* security.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = security.c; path = liburl/security.c; sourceTree = "<group>"; };
+		EDAE2F6A1E1BF5EF00117ED9 /* curlx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curlx.h; path = liburl/curlx.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +214,8 @@
 				EDAE2F621E1BEB4100117ED9 /* rand.h */,
 				EDAE2F641E1BED7700117ED9 /* wildcard.c */,
 				EDAE2F651E1BED7700117ED9 /* wildcard.h */,
+				EDAE2F671E1BF40E00117ED9 /* security.c */,
+				EDAE2F6A1E1BF5EF00117ED9 /* curlx.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAE2F271E1B947700117ED9 /* strdup.c in Sources */,
+				EDAE2F691E1BF40E00117ED9 /* security.c in Sources */,
 				EDAE2F631E1BEB4100117ED9 /* rand.c in Sources */,
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
 				EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */,
