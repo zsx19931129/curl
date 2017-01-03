@@ -36,6 +36,7 @@
 		EDAE2F181E1B406D00117ED9 /* curl_fnmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = curl_fnmatch.c; path = liburl/curl_fnmatch.c; sourceTree = "<group>"; };
 		EDAE2F1A1E1B464600117ED9 /* curl_setup_once.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curl_setup_once.h; path = liburl/curl_setup_once.h; sourceTree = "<group>"; };
 		EDAE2F1B1E1B4C2200117ED9 /* curl_memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curl_memory.h; path = liburl/curl_memory.h; sourceTree = "<group>"; };
+		EDAE2F1C1E1B4EA300117ED9 /* memdebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = memdebug.h; path = liburl/memdebug.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				EDAE2F181E1B406D00117ED9 /* curl_fnmatch.c */,
 				EDAE2F1A1E1B464600117ED9 /* curl_setup_once.h */,
 				EDAE2F1B1E1B4C2200117ED9 /* curl_memory.h */,
+				EDAE2F1C1E1B4EA300117ED9 /* memdebug.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
