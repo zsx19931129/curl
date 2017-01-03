@@ -12,6 +12,7 @@
 		EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F181E1B406D00117ED9 /* curl_fnmatch.c */; };
 		EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F1D1E1B4FDC00117ED9 /* memdebug.c */; };
 		EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F201E1B513300117ED9 /* mprintf.c */; };
+		EDAE2F241E1B579400117ED9 /* formdata.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F231E1B579400117ED9 /* formdata.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		EDAE2F1D1E1B4FDC00117ED9 /* memdebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memdebug.c; path = liburl/memdebug.c; sourceTree = "<group>"; };
 		EDAE2F1F1E1B50F400117ED9 /* curl_printf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curl_printf.h; path = liburl/curl_printf.h; sourceTree = "<group>"; };
 		EDAE2F201E1B513300117ED9 /* mprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mprintf.c; path = liburl/mprintf.c; sourceTree = "<group>"; };
+		EDAE2F221E1B56D500117ED9 /* formdata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = formdata.h; path = liburl/formdata.h; sourceTree = "<group>"; };
+		EDAE2F231E1B579400117ED9 /* formdata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = formdata.c; path = liburl/formdata.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				EDAE2F1D1E1B4FDC00117ED9 /* memdebug.c */,
 				EDAE2F1F1E1B50F400117ED9 /* curl_printf.h */,
 				EDAE2F201E1B513300117ED9 /* mprintf.c */,
+				EDAE2F221E1B56D500117ED9 /* formdata.h */,
+				EDAE2F231E1B579400117ED9 /* formdata.c */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
 				EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */,
 				EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */,
+				EDAE2F241E1B579400117ED9 /* formdata.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 			);
