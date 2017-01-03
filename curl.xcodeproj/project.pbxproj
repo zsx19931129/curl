@@ -13,6 +13,11 @@
 		EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F1D1E1B4FDC00117ED9 /* memdebug.c */; };
 		EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F201E1B513300117ED9 /* mprintf.c */; };
 		EDAE2F241E1B579400117ED9 /* formdata.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F231E1B579400117ED9 /* formdata.c */; };
+		EDAE2F271E1B947700117ED9 /* strdup.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F261E1B947700117ED9 /* strdup.c */; };
+		EDAE2F2A1E1B94AA00117ED9 /* strcase.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F281E1B94AA00117ED9 /* strcase.c */; };
+		EDAE2F2D1E1B950400117ED9 /* strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F2B1E1B950400117ED9 /* strerror.c */; };
+		EDAE2F301E1B95E400117ED9 /* strtok.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F2E1E1B95E400117ED9 /* strtok.c */; };
+		EDAE2F331E1B963500117ED9 /* strtoofft.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F311E1B963500117ED9 /* strtoofft.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +50,16 @@
 		EDAE2F201E1B513300117ED9 /* mprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mprintf.c; path = liburl/mprintf.c; sourceTree = "<group>"; };
 		EDAE2F221E1B56D500117ED9 /* formdata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = formdata.h; path = liburl/formdata.h; sourceTree = "<group>"; };
 		EDAE2F231E1B579400117ED9 /* formdata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = formdata.c; path = liburl/formdata.c; sourceTree = "<group>"; };
+		EDAE2F251E1B91DF00117ED9 /* strdup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = strdup.h; path = liburl/strdup.h; sourceTree = "<group>"; };
+		EDAE2F261E1B947700117ED9 /* strdup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strdup.c; path = liburl/strdup.c; sourceTree = "<group>"; };
+		EDAE2F281E1B94AA00117ED9 /* strcase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strcase.c; path = liburl/strcase.c; sourceTree = "<group>"; };
+		EDAE2F291E1B94AA00117ED9 /* strcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strcase.h; path = liburl/strcase.h; sourceTree = "<group>"; };
+		EDAE2F2B1E1B950400117ED9 /* strerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strerror.c; path = liburl/strerror.c; sourceTree = "<group>"; };
+		EDAE2F2C1E1B950400117ED9 /* strerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strerror.h; path = liburl/strerror.h; sourceTree = "<group>"; };
+		EDAE2F2E1E1B95E400117ED9 /* strtok.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strtok.c; path = liburl/strtok.c; sourceTree = "<group>"; };
+		EDAE2F2F1E1B95E400117ED9 /* strtok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strtok.h; path = liburl/strtok.h; sourceTree = "<group>"; };
+		EDAE2F311E1B963500117ED9 /* strtoofft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strtoofft.c; path = liburl/strtoofft.c; sourceTree = "<group>"; };
+		EDAE2F321E1B963500117ED9 /* strtoofft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strtoofft.h; path = liburl/strtoofft.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,16 @@
 				EDAE2F201E1B513300117ED9 /* mprintf.c */,
 				EDAE2F221E1B56D500117ED9 /* formdata.h */,
 				EDAE2F231E1B579400117ED9 /* formdata.c */,
+				EDAE2F251E1B91DF00117ED9 /* strdup.h */,
+				EDAE2F261E1B947700117ED9 /* strdup.c */,
+				EDAE2F281E1B94AA00117ED9 /* strcase.c */,
+				EDAE2F291E1B94AA00117ED9 /* strcase.h */,
+				EDAE2F2B1E1B950400117ED9 /* strerror.c */,
+				EDAE2F2C1E1B950400117ED9 /* strerror.h */,
+				EDAE2F2E1E1B95E400117ED9 /* strtok.c */,
+				EDAE2F2F1E1B95E400117ED9 /* strtok.h */,
+				EDAE2F311E1B963500117ED9 /* strtoofft.c */,
+				EDAE2F321E1B963500117ED9 /* strtoofft.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -161,12 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAE2F271E1B947700117ED9 /* strdup.c in Sources */,
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
+				EDAE2F331E1B963500117ED9 /* strtoofft.c in Sources */,
+				EDAE2F301E1B95E400117ED9 /* strtok.c in Sources */,
 				EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */,
 				EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */,
 				EDAE2F241E1B579400117ED9 /* formdata.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
+				EDAE2F2A1E1B94AA00117ED9 /* strcase.c in Sources */,
+				EDAE2F2D1E1B950400117ED9 /* strerror.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
