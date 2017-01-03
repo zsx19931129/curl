@@ -10,6 +10,7 @@
 		EDAE2F081E1A64C900117ED9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F071E1A64C900117ED9 /* main.c */; };
 		EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F151E1AA77700117ED9 /* cookie.c */; };
 		EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F181E1B406D00117ED9 /* curl_fnmatch.c */; };
+		EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F1D1E1B4FDC00117ED9 /* memdebug.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		EDAE2F1A1E1B464600117ED9 /* curl_setup_once.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curl_setup_once.h; path = liburl/curl_setup_once.h; sourceTree = "<group>"; };
 		EDAE2F1B1E1B4C2200117ED9 /* curl_memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curl_memory.h; path = liburl/curl_memory.h; sourceTree = "<group>"; };
 		EDAE2F1C1E1B4EA300117ED9 /* memdebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = memdebug.h; path = liburl/memdebug.h; sourceTree = "<group>"; };
+		EDAE2F1D1E1B4FDC00117ED9 /* memdebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memdebug.c; path = liburl/memdebug.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				EDAE2F1A1E1B464600117ED9 /* curl_setup_once.h */,
 				EDAE2F1B1E1B4C2200117ED9 /* curl_memory.h */,
 				EDAE2F1C1E1B4EA300117ED9 /* memdebug.h */,
+				EDAE2F1D1E1B4FDC00117ED9 /* memdebug.c */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
+				EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 			);
