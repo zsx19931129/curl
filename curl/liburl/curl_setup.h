@@ -131,7 +131,7 @@
 Error Compilation_aborted_SIZEOF_CURL_OFF_T_shall_not_be_defined
 #endif
 
-*
+/*
 * Disable other protocols when http is the only one desired.
 */
 

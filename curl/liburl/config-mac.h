@@ -109,5 +109,4 @@
 #define HAVE_EXTRA_STRICMP_H 1
 #define HAVE_EXTRA_STRDUP_H  1
 
-
 #endif /* config_mac_h */
