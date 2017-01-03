@@ -28,6 +28,7 @@
 		EDAE2F4B1E1BB0AB00117ED9 /* dotdot.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F491E1BB0AB00117ED9 /* dotdot.c */; };
 		EDAE2F4E1E1BB1E800117ED9 /* curl_gethostname.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F4C1E1BB1E800117ED9 /* curl_gethostname.c */; };
 		EDAE2F511E1BB3E300117ED9 /* curl_memrchr.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F4F1E1BB3E300117ED9 /* curl_memrchr.c */; };
+		EDAE2F541E1BE32F00117ED9 /* netrc.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F521E1BE32F00117ED9 /* netrc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +91,8 @@
 		EDAE2F4D1E1BB1E800117ED9 /* curl_gethostname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl_gethostname.h; path = liburl/curl_gethostname.h; sourceTree = "<group>"; };
 		EDAE2F4F1E1BB3E300117ED9 /* curl_memrchr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = curl_memrchr.c; path = liburl/curl_memrchr.c; sourceTree = "<group>"; };
 		EDAE2F501E1BB3E300117ED9 /* curl_memrchr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl_memrchr.h; path = liburl/curl_memrchr.h; sourceTree = "<group>"; };
+		EDAE2F521E1BE32F00117ED9 /* netrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = netrc.c; path = liburl/netrc.c; sourceTree = "<group>"; };
+		EDAE2F531E1BE32F00117ED9 /* netrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netrc.h; path = liburl/netrc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				EDAE2F4D1E1BB1E800117ED9 /* curl_gethostname.h */,
 				EDAE2F4F1E1BB3E300117ED9 /* curl_memrchr.c */,
 				EDAE2F501E1BB3E300117ED9 /* curl_memrchr.h */,
+				EDAE2F521E1BE32F00117ED9 /* netrc.c */,
+				EDAE2F531E1BE32F00117ED9 /* netrc.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 				EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */,
 				EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */,
 				EDAE2F391E1B982800117ED9 /* escape.c in Sources */,
+				EDAE2F541E1BE32F00117ED9 /* netrc.c in Sources */,
 				EDAE2F421E1BA60900117ED9 /* slist.c in Sources */,
 				EDAE2F241E1B579400117ED9 /* formdata.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
