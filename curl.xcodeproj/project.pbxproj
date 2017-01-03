@@ -25,6 +25,7 @@
 		EDAE2F421E1BA60900117ED9 /* slist.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F401E1BA60900117ED9 /* slist.c */; };
 		EDAE2F451E1BA66A00117ED9 /* splay.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F431E1BA66A00117ED9 /* splay.c */; };
 		EDAE2F481E1BAEB600117ED9 /* fileinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F461E1BAEB600117ED9 /* fileinfo.c */; };
+		EDAE2F4B1E1BB0AB00117ED9 /* dotdot.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F491E1BB0AB00117ED9 /* dotdot.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +82,8 @@
 		EDAE2F441E1BA66A00117ED9 /* splay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = splay.h; path = liburl/splay.h; sourceTree = "<group>"; };
 		EDAE2F461E1BAEB600117ED9 /* fileinfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fileinfo.c; path = liburl/fileinfo.c; sourceTree = "<group>"; };
 		EDAE2F471E1BAEB600117ED9 /* fileinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fileinfo.h; path = liburl/fileinfo.h; sourceTree = "<group>"; };
+		EDAE2F491E1BB0AB00117ED9 /* dotdot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dotdot.c; path = liburl/dotdot.c; sourceTree = "<group>"; };
+		EDAE2F4A1E1BB0AB00117ED9 /* dotdot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dotdot.h; path = liburl/dotdot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 				EDAE2F441E1BA66A00117ED9 /* splay.h */,
 				EDAE2F461E1BAEB600117ED9 /* fileinfo.c */,
 				EDAE2F471E1BAEB600117ED9 /* fileinfo.h */,
+				EDAE2F491E1BB0AB00117ED9 /* dotdot.c */,
+				EDAE2F4A1E1BB0AB00117ED9 /* dotdot.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 				EDAE2F3F1E1B9ABF00117ED9 /* hash.c in Sources */,
 				EDAE2F2A1E1B94AA00117ED9 /* strcase.c in Sources */,
+				EDAE2F4B1E1BB0AB00117ED9 /* dotdot.c in Sources */,
 				EDAE2F451E1BA66A00117ED9 /* splay.c in Sources */,
 				EDAE2F2D1E1B950400117ED9 /* strerror.c in Sources */,
 				EDAE2F3C1E1B9A5D00117ED9 /* llist.c in Sources */,
