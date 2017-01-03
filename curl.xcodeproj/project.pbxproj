@@ -42,6 +42,7 @@
 		EDAE2F741E1C005000117ED9 /* hostip6.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F731E1C005000117ED9 /* hostip6.c */; };
 		EDAE2F771E1C00AC00117ED9 /* inet_ntop.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F751E1C00AC00117ED9 /* inet_ntop.c */; };
 		EDAE2F7A1E1C013800117ED9 /* inet_pton.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F781E1C013800117ED9 /* inet_pton.c */; };
+		EDAE2F7E1E1C023500117ED9 /* share.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F7C1E1C023500117ED9 /* share.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,6 +132,8 @@
 		EDAE2F781E1C013800117ED9 /* inet_pton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inet_pton.c; path = liburl/inet_pton.c; sourceTree = "<group>"; };
 		EDAE2F791E1C013800117ED9 /* inet_pton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inet_pton.h; path = liburl/inet_pton.h; sourceTree = "<group>"; };
 		EDAE2F7B1E1C01D200117ED9 /* sockaddr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sockaddr.h; path = liburl/sockaddr.h; sourceTree = "<group>"; };
+		EDAE2F7C1E1C023500117ED9 /* share.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = share.c; path = liburl/share.c; sourceTree = "<group>"; };
+		EDAE2F7D1E1C023500117ED9 /* share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = share.h; path = liburl/share.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +247,8 @@
 				EDAE2F781E1C013800117ED9 /* inet_pton.c */,
 				EDAE2F791E1C013800117ED9 /* inet_pton.h */,
 				EDAE2F7B1E1C01D200117ED9 /* sockaddr.h */,
+				EDAE2F7C1E1C023500117ED9 /* share.c */,
+				EDAE2F7D1E1C023500117ED9 /* share.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 				EDAE2F271E1B947700117ED9 /* strdup.c in Sources */,
 				EDAE2F691E1BF40E00117ED9 /* security.c in Sources */,
 				EDAE2F631E1BEB4100117ED9 /* rand.c in Sources */,
+				EDAE2F7E1E1C023500117ED9 /* share.c in Sources */,
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
 				EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */,
 				EDAE2F721E1C000200117ED9 /* hostip4.c in Sources */,
