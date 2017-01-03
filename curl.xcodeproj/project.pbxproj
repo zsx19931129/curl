@@ -38,6 +38,8 @@
 		EDAE2F691E1BF40E00117ED9 /* security.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F671E1BF40E00117ED9 /* security.c */; };
 		EDAE2F6D1E1BF8AE00117ED9 /* curl_threads.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F6B1E1BF8AE00117ED9 /* curl_threads.c */; };
 		EDAE2F701E1BFB8100117ED9 /* hostip.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F6E1E1BFB8100117ED9 /* hostip.c */; };
+		EDAE2F721E1C000200117ED9 /* hostip4.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F711E1C000200117ED9 /* hostip4.c */; };
+		EDAE2F741E1C005000117ED9 /* hostip6.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F731E1C005000117ED9 /* hostip6.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +122,8 @@
 		EDAE2F6C1E1BF8AE00117ED9 /* curl_threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl_threads.h; path = liburl/curl_threads.h; sourceTree = "<group>"; };
 		EDAE2F6E1E1BFB8100117ED9 /* hostip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hostip.c; path = liburl/hostip.c; sourceTree = "<group>"; };
 		EDAE2F6F1E1BFB8100117ED9 /* hostip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hostip.h; path = liburl/hostip.h; sourceTree = "<group>"; };
+		EDAE2F711E1C000200117ED9 /* hostip4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hostip4.c; path = liburl/hostip4.c; sourceTree = "<group>"; };
+		EDAE2F731E1C005000117ED9 /* hostip6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hostip6.c; path = liburl/hostip6.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,8 @@
 				EDAE2F6C1E1BF8AE00117ED9 /* curl_threads.h */,
 				EDAE2F6E1E1BFB8100117ED9 /* hostip.c */,
 				EDAE2F6F1E1BFB8100117ED9 /* hostip.h */,
+				EDAE2F711E1C000200117ED9 /* hostip4.c */,
+				EDAE2F731E1C005000117ED9 /* hostip6.c */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				EDAE2F631E1BEB4100117ED9 /* rand.c in Sources */,
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
 				EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */,
+				EDAE2F721E1C000200117ED9 /* hostip4.c in Sources */,
 				EDAE2F331E1B963500117ED9 /* strtoofft.c in Sources */,
 				EDAE2F481E1BAEB600117ED9 /* fileinfo.c in Sources */,
 				EDAE2F301E1B95E400117ED9 /* strtok.c in Sources */,
@@ -301,6 +308,7 @@
 				EDAE2F541E1BE32F00117ED9 /* netrc.c in Sources */,
 				EDAE2F421E1BA60900117ED9 /* slist.c in Sources */,
 				EDAE2F241E1B579400117ED9 /* formdata.c in Sources */,
+				EDAE2F741E1C005000117ED9 /* hostip6.c in Sources */,
 				EDAE2F5D1E1BE8C800117ED9 /* progress.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
