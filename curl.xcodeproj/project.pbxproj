@@ -30,6 +30,7 @@
 		EDAE2F511E1BB3E300117ED9 /* curl_memrchr.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F4F1E1BB3E300117ED9 /* curl_memrchr.c */; };
 		EDAE2F541E1BE32F00117ED9 /* netrc.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F521E1BE32F00117ED9 /* netrc.c */; };
 		EDAE2F571E1BE71400117ED9 /* parsedate.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F551E1BE71400117ED9 /* parsedate.c */; };
+		EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F581E1BE81100117ED9 /* warnless.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +97,8 @@
 		EDAE2F531E1BE32F00117ED9 /* netrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netrc.h; path = liburl/netrc.h; sourceTree = "<group>"; };
 		EDAE2F551E1BE71400117ED9 /* parsedate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parsedate.c; path = liburl/parsedate.c; sourceTree = "<group>"; };
 		EDAE2F561E1BE71400117ED9 /* parsedate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parsedate.h; path = liburl/parsedate.h; sourceTree = "<group>"; };
+		EDAE2F581E1BE81100117ED9 /* warnless.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = warnless.c; path = liburl/warnless.c; sourceTree = "<group>"; };
+		EDAE2F591E1BE81100117ED9 /* warnless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = warnless.h; path = liburl/warnless.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 				EDAE2F531E1BE32F00117ED9 /* netrc.h */,
 				EDAE2F551E1BE71400117ED9 /* parsedate.c */,
 				EDAE2F561E1BE71400117ED9 /* parsedate.h */,
+				EDAE2F581E1BE81100117ED9 /* warnless.c */,
+				EDAE2F591E1BE81100117ED9 /* warnless.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			files = (
 				EDAE2F271E1B947700117ED9 /* strdup.c in Sources */,
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
+				EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */,
 				EDAE2F331E1B963500117ED9 /* strtoofft.c in Sources */,
 				EDAE2F481E1BAEB600117ED9 /* fileinfo.c in Sources */,
 				EDAE2F301E1B95E400117ED9 /* strtok.c in Sources */,
