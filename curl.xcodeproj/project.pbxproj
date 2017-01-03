@@ -31,6 +31,8 @@
 		EDAE2F541E1BE32F00117ED9 /* netrc.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F521E1BE32F00117ED9 /* netrc.c */; };
 		EDAE2F571E1BE71400117ED9 /* parsedate.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F551E1BE71400117ED9 /* parsedate.c */; };
 		EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F581E1BE81100117ED9 /* warnless.c */; };
+		EDAE2F5D1E1BE8C800117ED9 /* progress.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F5B1E1BE8C800117ED9 /* progress.c */; };
+		EDAE2F601E1BE93D00117ED9 /* timeval.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F5E1E1BE93D00117ED9 /* timeval.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +101,10 @@
 		EDAE2F561E1BE71400117ED9 /* parsedate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parsedate.h; path = liburl/parsedate.h; sourceTree = "<group>"; };
 		EDAE2F581E1BE81100117ED9 /* warnless.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = warnless.c; path = liburl/warnless.c; sourceTree = "<group>"; };
 		EDAE2F591E1BE81100117ED9 /* warnless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = warnless.h; path = liburl/warnless.h; sourceTree = "<group>"; };
+		EDAE2F5B1E1BE8C800117ED9 /* progress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = progress.c; path = liburl/progress.c; sourceTree = "<group>"; };
+		EDAE2F5C1E1BE8C800117ED9 /* progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = progress.h; path = liburl/progress.h; sourceTree = "<group>"; };
+		EDAE2F5E1E1BE93D00117ED9 /* timeval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = timeval.c; path = liburl/timeval.c; sourceTree = "<group>"; };
+		EDAE2F5F1E1BE93D00117ED9 /* timeval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timeval.h; path = liburl/timeval.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +197,10 @@
 				EDAE2F561E1BE71400117ED9 /* parsedate.h */,
 				EDAE2F581E1BE81100117ED9 /* warnless.c */,
 				EDAE2F591E1BE81100117ED9 /* warnless.h */,
+				EDAE2F5B1E1BE8C800117ED9 /* progress.c */,
+				EDAE2F5C1E1BE8C800117ED9 /* progress.h */,
+				EDAE2F5E1E1BE93D00117ED9 /* timeval.c */,
+				EDAE2F5F1E1BE93D00117ED9 /* timeval.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -259,10 +269,12 @@
 				EDAE2F301E1B95E400117ED9 /* strtok.c in Sources */,
 				EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */,
 				EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */,
+				EDAE2F601E1BE93D00117ED9 /* timeval.c in Sources */,
 				EDAE2F391E1B982800117ED9 /* escape.c in Sources */,
 				EDAE2F541E1BE32F00117ED9 /* netrc.c in Sources */,
 				EDAE2F421E1BA60900117ED9 /* slist.c in Sources */,
 				EDAE2F241E1B579400117ED9 /* formdata.c in Sources */,
+				EDAE2F5D1E1BE8C800117ED9 /* progress.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 				EDAE2F3F1E1B9ABF00117ED9 /* hash.c in Sources */,
