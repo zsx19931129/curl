@@ -1,13 +1,5 @@
-//
-//  curl_setup.h
-//  curl
-//
-//  Created by 张少雄 on 1/2/17.
-//  Copyright © 2017 张少雄. All rights reserved.
-//
-
-#ifndef curl_setup_h
-#define curl_setup_h
+#ifndef HEADER_CURL_SETUP_H
+#define HEADER_CURL_SETUP_H
 
 /*
  * Define WIN32 when build target is Win32 API
@@ -64,6 +56,8 @@
 #ifdef __VXWORKS__
 #  include "config-vxworks.h"
 #endif
+
+#endif /* HAVE_CONFIG_H */
 
 /* ================================================================ */
 /* Definition of preprocessor macros/symbols which modify compiler  */
@@ -132,8 +126,8 @@ Error Compilation_aborted_SIZEOF_CURL_OFF_T_shall_not_be_defined
 #endif
 
 /*
-* Disable other protocols when http is the only one desired.
-*/
+ * Disable other protocols when http is the only one desired.
+ */
 
 #ifdef HTTP_ONLY
 #  ifndef CURL_DISABLE_TFTP
@@ -747,4 +741,7 @@ defined(HAVE_WS2TCPIP_H)
 #  endif
 # endif
 
-#endif /* curl_setup_h */
+#define TRUE true
+#define FALSE false
+
+#endif /* HEADER_CURL_SETUP_H */
