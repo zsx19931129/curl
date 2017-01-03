@@ -29,6 +29,7 @@
 		EDAE2F4E1E1BB1E800117ED9 /* curl_gethostname.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F4C1E1BB1E800117ED9 /* curl_gethostname.c */; };
 		EDAE2F511E1BB3E300117ED9 /* curl_memrchr.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F4F1E1BB3E300117ED9 /* curl_memrchr.c */; };
 		EDAE2F541E1BE32F00117ED9 /* netrc.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F521E1BE32F00117ED9 /* netrc.c */; };
+		EDAE2F571E1BE71400117ED9 /* parsedate.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F551E1BE71400117ED9 /* parsedate.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +94,8 @@
 		EDAE2F501E1BB3E300117ED9 /* curl_memrchr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl_memrchr.h; path = liburl/curl_memrchr.h; sourceTree = "<group>"; };
 		EDAE2F521E1BE32F00117ED9 /* netrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = netrc.c; path = liburl/netrc.c; sourceTree = "<group>"; };
 		EDAE2F531E1BE32F00117ED9 /* netrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netrc.h; path = liburl/netrc.h; sourceTree = "<group>"; };
+		EDAE2F551E1BE71400117ED9 /* parsedate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parsedate.c; path = liburl/parsedate.c; sourceTree = "<group>"; };
+		EDAE2F561E1BE71400117ED9 /* parsedate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parsedate.h; path = liburl/parsedate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,8 @@
 				EDAE2F501E1BB3E300117ED9 /* curl_memrchr.h */,
 				EDAE2F521E1BE32F00117ED9 /* netrc.c */,
 				EDAE2F531E1BE32F00117ED9 /* netrc.h */,
+				EDAE2F551E1BE71400117ED9 /* parsedate.c */,
+				EDAE2F561E1BE71400117ED9 /* parsedate.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 				EDAE2F3F1E1B9ABF00117ED9 /* hash.c in Sources */,
 				EDAE2F2A1E1B94AA00117ED9 /* strcase.c in Sources */,
+				EDAE2F571E1BE71400117ED9 /* parsedate.c in Sources */,
 				EDAE2F4B1E1BB0AB00117ED9 /* dotdot.c in Sources */,
 				EDAE2F4E1E1BB1E800117ED9 /* curl_gethostname.c in Sources */,
 				EDAE2F451E1BA66A00117ED9 /* splay.c in Sources */,
