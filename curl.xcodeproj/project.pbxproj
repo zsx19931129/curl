@@ -33,6 +33,8 @@
 		EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F581E1BE81100117ED9 /* warnless.c */; };
 		EDAE2F5D1E1BE8C800117ED9 /* progress.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F5B1E1BE8C800117ED9 /* progress.c */; };
 		EDAE2F601E1BE93D00117ED9 /* timeval.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F5E1E1BE93D00117ED9 /* timeval.c */; };
+		EDAE2F631E1BEB4100117ED9 /* rand.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F611E1BEB4100117ED9 /* rand.c */; };
+		EDAE2F661E1BED7700117ED9 /* wildcard.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F641E1BED7700117ED9 /* wildcard.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +107,10 @@
 		EDAE2F5C1E1BE8C800117ED9 /* progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = progress.h; path = liburl/progress.h; sourceTree = "<group>"; };
 		EDAE2F5E1E1BE93D00117ED9 /* timeval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = timeval.c; path = liburl/timeval.c; sourceTree = "<group>"; };
 		EDAE2F5F1E1BE93D00117ED9 /* timeval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timeval.h; path = liburl/timeval.h; sourceTree = "<group>"; };
+		EDAE2F611E1BEB4100117ED9 /* rand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rand.c; path = liburl/rand.c; sourceTree = "<group>"; };
+		EDAE2F621E1BEB4100117ED9 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rand.h; path = liburl/rand.h; sourceTree = "<group>"; };
+		EDAE2F641E1BED7700117ED9 /* wildcard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wildcard.c; path = liburl/wildcard.c; sourceTree = "<group>"; };
+		EDAE2F651E1BED7700117ED9 /* wildcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wildcard.h; path = liburl/wildcard.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +207,10 @@
 				EDAE2F5C1E1BE8C800117ED9 /* progress.h */,
 				EDAE2F5E1E1BE93D00117ED9 /* timeval.c */,
 				EDAE2F5F1E1BE93D00117ED9 /* timeval.h */,
+				EDAE2F611E1BEB4100117ED9 /* rand.c */,
+				EDAE2F621E1BEB4100117ED9 /* rand.h */,
+				EDAE2F641E1BED7700117ED9 /* wildcard.c */,
+				EDAE2F651E1BED7700117ED9 /* wildcard.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -262,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAE2F271E1B947700117ED9 /* strdup.c in Sources */,
+				EDAE2F631E1BEB4100117ED9 /* rand.c in Sources */,
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
 				EDAE2F5A1E1BE81100117ED9 /* warnless.c in Sources */,
 				EDAE2F331E1B963500117ED9 /* strtoofft.c in Sources */,
@@ -281,6 +292,7 @@
 				EDAE2F2A1E1B94AA00117ED9 /* strcase.c in Sources */,
 				EDAE2F571E1BE71400117ED9 /* parsedate.c in Sources */,
 				EDAE2F4B1E1BB0AB00117ED9 /* dotdot.c in Sources */,
+				EDAE2F661E1BED7700117ED9 /* wildcard.c in Sources */,
 				EDAE2F4E1E1BB1E800117ED9 /* curl_gethostname.c in Sources */,
 				EDAE2F451E1BA66A00117ED9 /* splay.c in Sources */,
 				EDAE2F2D1E1B950400117ED9 /* strerror.c in Sources */,
