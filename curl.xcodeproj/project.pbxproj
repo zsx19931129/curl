@@ -37,6 +37,7 @@
 		EDAE2F661E1BED7700117ED9 /* wildcard.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F641E1BED7700117ED9 /* wildcard.c */; };
 		EDAE2F691E1BF40E00117ED9 /* security.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F671E1BF40E00117ED9 /* security.c */; };
 		EDAE2F6D1E1BF8AE00117ED9 /* curl_threads.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F6B1E1BF8AE00117ED9 /* curl_threads.c */; };
+		EDAE2F701E1BFB8100117ED9 /* hostip.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F6E1E1BFB8100117ED9 /* hostip.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,6 +118,8 @@
 		EDAE2F6A1E1BF5EF00117ED9 /* curlx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = curlx.h; path = liburl/curlx.h; sourceTree = "<group>"; };
 		EDAE2F6B1E1BF8AE00117ED9 /* curl_threads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = curl_threads.c; path = liburl/curl_threads.c; sourceTree = "<group>"; };
 		EDAE2F6C1E1BF8AE00117ED9 /* curl_threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl_threads.h; path = liburl/curl_threads.h; sourceTree = "<group>"; };
+		EDAE2F6E1E1BFB8100117ED9 /* hostip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hostip.c; path = liburl/hostip.c; sourceTree = "<group>"; };
+		EDAE2F6F1E1BFB8100117ED9 /* hostip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hostip.h; path = liburl/hostip.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +224,8 @@
 				EDAE2F6A1E1BF5EF00117ED9 /* curlx.h */,
 				EDAE2F6B1E1BF8AE00117ED9 /* curl_threads.c */,
 				EDAE2F6C1E1BF8AE00117ED9 /* curl_threads.h */,
+				EDAE2F6E1E1BFB8100117ED9 /* hostip.c */,
+				EDAE2F6F1E1BFB8100117ED9 /* hostip.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				EDAE2F4B1E1BB0AB00117ED9 /* dotdot.c in Sources */,
 				EDAE2F661E1BED7700117ED9 /* wildcard.c in Sources */,
 				EDAE2F4E1E1BB1E800117ED9 /* curl_gethostname.c in Sources */,
+				EDAE2F701E1BFB8100117ED9 /* hostip.c in Sources */,
 				EDAE2F451E1BA66A00117ED9 /* splay.c in Sources */,
 				EDAE2F2D1E1B950400117ED9 /* strerror.c in Sources */,
 				EDAE2F3C1E1B9A5D00117ED9 /* llist.c in Sources */,
