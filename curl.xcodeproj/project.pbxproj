@@ -130,6 +130,7 @@
 		EDAE2F761E1C00AC00117ED9 /* inet_ntop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inet_ntop.h; path = liburl/inet_ntop.h; sourceTree = "<group>"; };
 		EDAE2F781E1C013800117ED9 /* inet_pton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inet_pton.c; path = liburl/inet_pton.c; sourceTree = "<group>"; };
 		EDAE2F791E1C013800117ED9 /* inet_pton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inet_pton.h; path = liburl/inet_pton.h; sourceTree = "<group>"; };
+		EDAE2F7B1E1C01D200117ED9 /* sockaddr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sockaddr.h; path = liburl/sockaddr.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +243,7 @@
 				EDAE2F761E1C00AC00117ED9 /* inet_ntop.h */,
 				EDAE2F781E1C013800117ED9 /* inet_pton.c */,
 				EDAE2F791E1C013800117ED9 /* inet_pton.h */,
+				EDAE2F7B1E1C01D200117ED9 /* sockaddr.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
