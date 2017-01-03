@@ -40,6 +40,8 @@
 		EDAE2F701E1BFB8100117ED9 /* hostip.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F6E1E1BFB8100117ED9 /* hostip.c */; };
 		EDAE2F721E1C000200117ED9 /* hostip4.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F711E1C000200117ED9 /* hostip4.c */; };
 		EDAE2F741E1C005000117ED9 /* hostip6.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F731E1C005000117ED9 /* hostip6.c */; };
+		EDAE2F771E1C00AC00117ED9 /* inet_ntop.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F751E1C00AC00117ED9 /* inet_ntop.c */; };
+		EDAE2F7A1E1C013800117ED9 /* inet_pton.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F781E1C013800117ED9 /* inet_pton.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +126,10 @@
 		EDAE2F6F1E1BFB8100117ED9 /* hostip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hostip.h; path = liburl/hostip.h; sourceTree = "<group>"; };
 		EDAE2F711E1C000200117ED9 /* hostip4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hostip4.c; path = liburl/hostip4.c; sourceTree = "<group>"; };
 		EDAE2F731E1C005000117ED9 /* hostip6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hostip6.c; path = liburl/hostip6.c; sourceTree = "<group>"; };
+		EDAE2F751E1C00AC00117ED9 /* inet_ntop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inet_ntop.c; path = liburl/inet_ntop.c; sourceTree = "<group>"; };
+		EDAE2F761E1C00AC00117ED9 /* inet_ntop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inet_ntop.h; path = liburl/inet_ntop.h; sourceTree = "<group>"; };
+		EDAE2F781E1C013800117ED9 /* inet_pton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inet_pton.c; path = liburl/inet_pton.c; sourceTree = "<group>"; };
+		EDAE2F791E1C013800117ED9 /* inet_pton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inet_pton.h; path = liburl/inet_pton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +238,10 @@
 				EDAE2F6F1E1BFB8100117ED9 /* hostip.h */,
 				EDAE2F711E1C000200117ED9 /* hostip4.c */,
 				EDAE2F731E1C005000117ED9 /* hostip6.c */,
+				EDAE2F751E1C00AC00117ED9 /* inet_ntop.c */,
+				EDAE2F761E1C00AC00117ED9 /* inet_ntop.h */,
+				EDAE2F781E1C013800117ED9 /* inet_pton.c */,
+				EDAE2F791E1C013800117ED9 /* inet_pton.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -301,6 +311,7 @@
 				EDAE2F331E1B963500117ED9 /* strtoofft.c in Sources */,
 				EDAE2F481E1BAEB600117ED9 /* fileinfo.c in Sources */,
 				EDAE2F301E1B95E400117ED9 /* strtok.c in Sources */,
+				EDAE2F7A1E1C013800117ED9 /* inet_pton.c in Sources */,
 				EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */,
 				EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */,
 				EDAE2F601E1BE93D00117ED9 /* timeval.c in Sources */,
@@ -310,6 +321,7 @@
 				EDAE2F241E1B579400117ED9 /* formdata.c in Sources */,
 				EDAE2F741E1C005000117ED9 /* hostip6.c in Sources */,
 				EDAE2F5D1E1BE8C800117ED9 /* progress.c in Sources */,
+				EDAE2F771E1C00AC00117ED9 /* inet_ntop.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 				EDAE2F3F1E1B9ABF00117ED9 /* hash.c in Sources */,
