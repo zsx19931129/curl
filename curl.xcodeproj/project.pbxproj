@@ -50,6 +50,7 @@
 		EDAE2F8D1E1CE78B00117ED9 /* content_encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F8B1E1CE78B00117ED9 /* content_encoding.c */; };
 		EDAE2F8F1E1CE7C300117ED9 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F8E1E1CE7C300117ED9 /* base64.c */; };
 		EDAE2F931E1CE99100117ED9 /* multi.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F921E1CE99100117ED9 /* multi.c */; };
+		EDAE2F961E1CEC0A00117ED9 /* conncache.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F941E1CEC0A00117ED9 /* conncache.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -155,6 +156,8 @@
 		EDAE2F901E1CE84C00117ED9 /* multiif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = multiif.h; path = liburl/multiif.h; sourceTree = "<group>"; };
 		EDAE2F911E1CE92600117ED9 /* multihandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = multihandle.h; path = liburl/multihandle.h; sourceTree = "<group>"; };
 		EDAE2F921E1CE99100117ED9 /* multi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = multi.c; path = liburl/multi.c; sourceTree = "<group>"; };
+		EDAE2F941E1CEC0A00117ED9 /* conncache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = conncache.c; path = liburl/conncache.c; sourceTree = "<group>"; };
+		EDAE2F951E1CEC0A00117ED9 /* conncache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = conncache.h; path = liburl/conncache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +287,8 @@
 				EDAE2F901E1CE84C00117ED9 /* multiif.h */,
 				EDAE2F911E1CE92600117ED9 /* multihandle.h */,
 				EDAE2F921E1CE99100117ED9 /* multi.c */,
+				EDAE2F941E1CEC0A00117ED9 /* conncache.c */,
+				EDAE2F951E1CEC0A00117ED9 /* conncache.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				EDAE2F241E1B579400117ED9 /* formdata.c in Sources */,
 				EDAE2F741E1C005000117ED9 /* hostip6.c in Sources */,
 				EDAE2F5D1E1BE8C800117ED9 /* progress.c in Sources */,
+				EDAE2F961E1CEC0A00117ED9 /* conncache.c in Sources */,
 				EDAE2F771E1C00AC00117ED9 /* inet_ntop.c in Sources */,
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
