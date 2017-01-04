@@ -51,6 +51,7 @@
 		EDAE2F8F1E1CE7C300117ED9 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F8E1E1CE7C300117ED9 /* base64.c */; };
 		EDAE2F931E1CE99100117ED9 /* multi.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F921E1CE99100117ED9 /* multi.c */; };
 		EDAE2F961E1CEC0A00117ED9 /* conncache.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F941E1CEC0A00117ED9 /* conncache.c */; };
+		EDAE2F991E1CECAD00117ED9 /* select.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F971E1CECAD00117ED9 /* select.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -158,6 +159,8 @@
 		EDAE2F921E1CE99100117ED9 /* multi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = multi.c; path = liburl/multi.c; sourceTree = "<group>"; };
 		EDAE2F941E1CEC0A00117ED9 /* conncache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = conncache.c; path = liburl/conncache.c; sourceTree = "<group>"; };
 		EDAE2F951E1CEC0A00117ED9 /* conncache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = conncache.h; path = liburl/conncache.h; sourceTree = "<group>"; };
+		EDAE2F971E1CECAD00117ED9 /* select.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = select.c; path = liburl/select.c; sourceTree = "<group>"; };
+		EDAE2F981E1CECAD00117ED9 /* select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = select.h; path = liburl/select.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +292,8 @@
 				EDAE2F921E1CE99100117ED9 /* multi.c */,
 				EDAE2F941E1CEC0A00117ED9 /* conncache.c */,
 				EDAE2F951E1CEC0A00117ED9 /* conncache.h */,
+				EDAE2F971E1CECAD00117ED9 /* select.c */,
+				EDAE2F981E1CECAD00117ED9 /* select.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 				EDAE2F721E1C000200117ED9 /* hostip4.c in Sources */,
 				EDAE2F331E1B963500117ED9 /* strtoofft.c in Sources */,
 				EDAE2F841E1CA09C00117ED9 /* if2ip.c in Sources */,
+				EDAE2F991E1CECAD00117ED9 /* select.c in Sources */,
 				EDAE2F481E1BAEB600117ED9 /* fileinfo.c in Sources */,
 				EDAE2F301E1B95E400117ED9 /* strtok.c in Sources */,
 				EDAE2F7A1E1C013800117ED9 /* inet_pton.c in Sources */,
