@@ -52,6 +52,7 @@
 		EDAE2F931E1CE99100117ED9 /* multi.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F921E1CE99100117ED9 /* multi.c */; };
 		EDAE2F961E1CEC0A00117ED9 /* conncache.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F941E1CEC0A00117ED9 /* conncache.c */; };
 		EDAE2F991E1CECAD00117ED9 /* select.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F971E1CECAD00117ED9 /* select.c */; };
+		EDAE2F9C1E1CED5100117ED9 /* transfer.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F9A1E1CED5100117ED9 /* transfer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -161,6 +162,8 @@
 		EDAE2F951E1CEC0A00117ED9 /* conncache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = conncache.h; path = liburl/conncache.h; sourceTree = "<group>"; };
 		EDAE2F971E1CECAD00117ED9 /* select.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = select.c; path = liburl/select.c; sourceTree = "<group>"; };
 		EDAE2F981E1CECAD00117ED9 /* select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = select.h; path = liburl/select.h; sourceTree = "<group>"; };
+		EDAE2F9A1E1CED5100117ED9 /* transfer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transfer.c; path = liburl/transfer.c; sourceTree = "<group>"; };
+		EDAE2F9B1E1CED5100117ED9 /* transfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transfer.h; path = liburl/transfer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +297,8 @@
 				EDAE2F951E1CEC0A00117ED9 /* conncache.h */,
 				EDAE2F971E1CECAD00117ED9 /* select.c */,
 				EDAE2F981E1CECAD00117ED9 /* select.h */,
+				EDAE2F9A1E1CED5100117ED9 /* transfer.c */,
+				EDAE2F9B1E1CED5100117ED9 /* transfer.h */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 				EDAE2F191E1B406D00117ED9 /* curl_fnmatch.c in Sources */,
 				EDAE2F161E1AA77700117ED9 /* cookie.c in Sources */,
 				EDAE2F3F1E1B9ABF00117ED9 /* hash.c in Sources */,
+				EDAE2F9C1E1CED5100117ED9 /* transfer.c in Sources */,
 				EDAE2F2A1E1B94AA00117ED9 /* strcase.c in Sources */,
 				EDAE2F571E1BE71400117ED9 /* parsedate.c in Sources */,
 				EDAE2F6D1E1BF8AE00117ED9 /* curl_threads.c in Sources */,
