@@ -49,6 +49,7 @@
 		EDAE2F8A1E1CE2CD00117ED9 /* nonblock.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F881E1CE2CD00117ED9 /* nonblock.c */; };
 		EDAE2F8D1E1CE78B00117ED9 /* content_encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F8B1E1CE78B00117ED9 /* content_encoding.c */; };
 		EDAE2F8F1E1CE7C300117ED9 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F8E1E1CE7C300117ED9 /* base64.c */; };
+		EDAE2F931E1CE99100117ED9 /* multi.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F921E1CE99100117ED9 /* multi.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +152,9 @@
 		EDAE2F8B1E1CE78B00117ED9 /* content_encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = content_encoding.c; path = liburl/content_encoding.c; sourceTree = "<group>"; };
 		EDAE2F8C1E1CE78B00117ED9 /* content_encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = content_encoding.h; path = liburl/content_encoding.h; sourceTree = "<group>"; };
 		EDAE2F8E1E1CE7C300117ED9 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = base64.c; path = liburl/base64.c; sourceTree = "<group>"; };
+		EDAE2F901E1CE84C00117ED9 /* multiif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = multiif.h; path = liburl/multiif.h; sourceTree = "<group>"; };
+		EDAE2F911E1CE92600117ED9 /* multihandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = multihandle.h; path = liburl/multihandle.h; sourceTree = "<group>"; };
+		EDAE2F921E1CE99100117ED9 /* multi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = multi.c; path = liburl/multi.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +281,9 @@
 				EDAE2F8B1E1CE78B00117ED9 /* content_encoding.c */,
 				EDAE2F8C1E1CE78B00117ED9 /* content_encoding.h */,
 				EDAE2F8E1E1CE7C300117ED9 /* base64.c */,
+				EDAE2F901E1CE84C00117ED9 /* multiif.h */,
+				EDAE2F911E1CE92600117ED9 /* multihandle.h */,
+				EDAE2F921E1CE99100117ED9 /* multi.c */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -337,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAE2F931E1CE99100117ED9 /* multi.c in Sources */,
 				EDAE2F271E1B947700117ED9 /* strdup.c in Sources */,
 				EDAE2F8A1E1CE2CD00117ED9 /* nonblock.c in Sources */,
 				EDAE2F691E1BF40E00117ED9 /* security.c in Sources */,
