@@ -47,6 +47,8 @@
 		EDAE2F841E1CA09C00117ED9 /* if2ip.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F821E1CA09C00117ED9 /* if2ip.c */; };
 		EDAE2F871E1CE05000117ED9 /* connect.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F851E1CE04F00117ED9 /* connect.c */; };
 		EDAE2F8A1E1CE2CD00117ED9 /* nonblock.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F881E1CE2CD00117ED9 /* nonblock.c */; };
+		EDAE2F8D1E1CE78B00117ED9 /* content_encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F8B1E1CE78B00117ED9 /* content_encoding.c */; };
+		EDAE2F8F1E1CE7C300117ED9 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2F8E1E1CE7C300117ED9 /* base64.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,6 +148,9 @@
 		EDAE2F861E1CE04F00117ED9 /* connect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connect.h; path = liburl/connect.h; sourceTree = "<group>"; };
 		EDAE2F881E1CE2CD00117ED9 /* nonblock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nonblock.c; path = liburl/nonblock.c; sourceTree = "<group>"; };
 		EDAE2F891E1CE2CD00117ED9 /* nonblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nonblock.h; path = liburl/nonblock.h; sourceTree = "<group>"; };
+		EDAE2F8B1E1CE78B00117ED9 /* content_encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = content_encoding.c; path = liburl/content_encoding.c; sourceTree = "<group>"; };
+		EDAE2F8C1E1CE78B00117ED9 /* content_encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = content_encoding.h; path = liburl/content_encoding.h; sourceTree = "<group>"; };
+		EDAE2F8E1E1CE7C300117ED9 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = base64.c; path = liburl/base64.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +274,9 @@
 				EDAE2F861E1CE04F00117ED9 /* connect.h */,
 				EDAE2F881E1CE2CD00117ED9 /* nonblock.c */,
 				EDAE2F891E1CE2CD00117ED9 /* nonblock.h */,
+				EDAE2F8B1E1CE78B00117ED9 /* content_encoding.c */,
+				EDAE2F8C1E1CE78B00117ED9 /* content_encoding.h */,
+				EDAE2F8E1E1CE7C300117ED9 /* base64.c */,
 			);
 			name = liburl;
 			sourceTree = "<group>";
@@ -332,6 +340,7 @@
 				EDAE2F271E1B947700117ED9 /* strdup.c in Sources */,
 				EDAE2F8A1E1CE2CD00117ED9 /* nonblock.c in Sources */,
 				EDAE2F691E1BF40E00117ED9 /* security.c in Sources */,
+				EDAE2F8D1E1CE78B00117ED9 /* content_encoding.c in Sources */,
 				EDAE2F631E1BEB4100117ED9 /* rand.c in Sources */,
 				EDAE2F7E1E1C023500117ED9 /* share.c in Sources */,
 				EDAE2F081E1A64C900117ED9 /* main.c in Sources */,
@@ -344,6 +353,7 @@
 				EDAE2F7A1E1C013800117ED9 /* inet_pton.c in Sources */,
 				EDAE2F1E1E1B4FDC00117ED9 /* memdebug.c in Sources */,
 				EDAE2F211E1B513300117ED9 /* mprintf.c in Sources */,
+				EDAE2F8F1E1CE7C300117ED9 /* base64.c in Sources */,
 				EDAE2F601E1BE93D00117ED9 /* timeval.c in Sources */,
 				EDAE2F871E1CE05000117ED9 /* connect.c in Sources */,
 				EDAE2F391E1B982800117ED9 /* escape.c in Sources */,
